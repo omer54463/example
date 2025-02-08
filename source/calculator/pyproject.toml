@@ -7,5 +7,5 @@ dependencies = ["calculator_backend"]
 [project.scripts]
 calculator = "calculator.cli:cli"
 
-[tool.setuptools.package-data]
-"calculator" = ["py.typed"]
+[tool.uv.sources]
+calculator_backend = { workspace = true }
