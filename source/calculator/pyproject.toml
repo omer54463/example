@@ -1,0 +1,11 @@
+[project]
+name = "calculator"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = ["calculator_backend"]
+
+[project.scripts]
+calculator = "calculator.cli:cli"
+
+[tool.setuptools.package-data]
+"calculator" = ["py.typed"]
