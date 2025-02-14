@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./source/calculator_backend",
+        "./source/calculator"
+    ]
+}
