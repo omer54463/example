@@ -9,3 +9,7 @@ calculator = "calculator.cli:cli"
 
 [tool.uv.sources]
 calculator_backend = { workspace = true }
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
