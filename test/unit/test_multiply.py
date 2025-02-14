@@ -1,7 +1,7 @@
 from calculator_backend.multiply import multiply
 
 
-def test_add() -> None:
+def test_multiply() -> None:
     a = 3
     b = 4
 
