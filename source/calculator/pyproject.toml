@@ -11,5 +11,5 @@ calculator = "calculator.cli:cli"
 calculator_backend = { workspace = true }
 
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
