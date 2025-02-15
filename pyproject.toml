@@ -9,7 +9,7 @@ line-length = 120
 
 [tool.ruff.lint]
 select = ["ALL"]
-ignore = ["D", "S101", "T201"]
+ignore = ["COM812", "D", "S101", "T201"]
 
 [dependency-groups]
 dev = ["mypy>=1.15.0", "pytest>=8.3.4", "ruff>=0.9.5"]
