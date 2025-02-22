@@ -12,4 +12,4 @@ select = ["ALL"]
 ignore = ["COM812", "D", "S101", "T201"]
 
 [dependency-groups]
-dev = ["mypy>=1.15.0", "pytest>=8.3.4", "ruff>=0.9.5"]
+dev = ["mypy==1.15.0", "pytest==8.3.4", "ruff==0.9.7"]
